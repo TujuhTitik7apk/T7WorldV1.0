@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">T7World</string>
+    <string name="login_google">Login dengan Google</string>
+    <string name="game">Permainan</string>
+    <string name="settings">Pengaturan</string>
+    <string name="language">Pilih Bahasa</string>
+    <string-array name="languages_array">
+        <item>Bahasa Indonesia</item>
+        <item>Basa Jawa</item>
+        <item>日本語</item>
+        <item>English</item>
+        <item>中文</item>
+    </string-array>
+</resources>

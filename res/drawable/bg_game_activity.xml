@@ -1,0 +1,8 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/colorGameBackground" />
+    <item>
+        <bitmap
+            android:src="@drawable/game_background"
+            android:gravity="fill" />
+    </item>
+</layer-list>

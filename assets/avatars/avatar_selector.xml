@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/child_male" />
+    <item android:drawable="@drawable/child_female" />
+    <item android:drawable="@drawable/teenage_male" />
+    <item android:drawable="@drawable/teenage_female" />
+    <item android:drawable="@drawable/adult_male" />
+    <item android:drawable="@drawable/adult_female" />
+
+</selector>

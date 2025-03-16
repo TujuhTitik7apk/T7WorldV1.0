@@ -1,0 +1,25 @@
+{
+  "player": {
+    "health": 100,
+    "stamina": 80,
+    "level": 1,
+    "experience": 0
+  },
+  "world": {
+    "difficulty": "normal",
+    "current_location": "Village",
+    "time": "morning"
+  },
+  "quests": [
+    {
+      "id": 1,
+      "title": "Find the Lost Sword",
+      "status": "active"
+    },
+    {
+      "id": 2,
+      "title": "Defeat the Dark Wizard",
+      "status": "locked"
+    }
+  ]
+}

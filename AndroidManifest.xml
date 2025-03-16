@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.t7apklym8.t7world">
+
+    <!-- Izin Akses Internet & Jaringan -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    
+    <!-- Izin Akses Penyimpanan -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!-- Izin Kamera & Getar -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <!-- Izin Firebase Cloud Messaging -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <!-- Izin Cek Perangkat (IMEI) -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <!-- Aplikasi -->
+    <application
+        android:name=".MyApplication"
+        android:label="@string/app_name"
+        android:icon="@mipmap/ic_launcher"
+        android:theme="@style/AppTheme"
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:hardwareAccelerated="true"
+        android:largeHeap="true">
+
+        <!-- Splash Screen -->
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:launchMode="singleTask"
+            android:configChanges="orientation|screenSize"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Login Google -->
+        <activity
+            android:name=".LoginGoogle"
+            android:label="@string/login_google"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <!-- Halaman Utama / Menu Game -->
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <!-- Aktivitas Game -->
+        <activity
+            android:name=".GameActivity"
+            android:label="@string/game"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <!-- Settings Bahasa (Locale) -->
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/settings"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:exported="true" />
+
+        <!-- Firebase Cloud Messaging Service -->
+        <service
+            android:name=".FirebaseMessageReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <!-- Cek Lisensi / IMEI -->
+        <service android:name=".LicenseCheckService" />
+
+        <!-- Firebase Analytics -->
+        <meta-data
+            android:name="com.google.firebase.analytics.app"
+            android:value="@string/app_name" />
+
+        <!-- Security Key untuk SHA1 -->
+        <meta-data
+            android:name="com.t7apklym8.t7world.SECURITY_CODE"
+            android:value="FB:22:F8:D7:A3:7C:99:34:6B:D2:08:C8:28:95:D2:02:59:61:E2:FA" />
+
+    </application>
+
+</manifest>

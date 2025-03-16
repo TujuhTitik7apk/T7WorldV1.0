@@ -1,0 +1,14 @@
+<resources>
+    <color name="primary">#FF5722</color>
+    <color name="primary_dark">#E64A19</color>
+    <color name="accent">#FFC107</color>
+
+    <color name="background">#121212</color>
+    <color name="text_white">#FFFFFF</color>
+    <color name="text_gray">#B0BEC5</color>
+    <color name="text_black">#000000</color>
+
+    <color name="item_card">#424242</color>
+    <color name="btn_green">#4CAF50</color>
+    <color name="btn_red">#F44336</color>
+</resources>

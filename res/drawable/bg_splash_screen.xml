@@ -1,0 +1,8 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/colorPrimaryDark" />
+    <item>
+        <bitmap
+            android:src="@drawable/logo_t7world"
+            android:gravity="center" />
+    </item>
+</layer-list>

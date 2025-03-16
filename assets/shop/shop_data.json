@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "Sword of Fire",
+      "price": 500,
+      "type": "Weapon"
+    },
+    {
+      "id": 2,
+      "name": "Shield of Light",
+      "price": 300,
+      "type": "Armor"
+    },
+    {
+      "id": 3,
+      "name": "Potion of Healing",
+      "price": 100,
+      "type": "Consumable"
+    }
+  ]
+}

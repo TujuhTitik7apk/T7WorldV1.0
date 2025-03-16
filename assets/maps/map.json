@@ -1,0 +1,22 @@
+{
+  "maps": [
+    {
+      "id": 1,
+      "name": "Forest Zone",
+      "difficulty": "Easy",
+      "bg": "forest.png"
+    },
+    {
+      "id": 2,
+      "name": "Desert Hell",
+      "difficulty": "Hard",
+      "bg": "desert.png"
+    },
+    {
+      "id": 3,
+      "name": "Sky City",
+      "difficulty": "Medium",
+      "bg": "skycity.png"
+    }
+  ]
+}

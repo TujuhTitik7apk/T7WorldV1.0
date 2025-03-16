@@ -1,0 +1,25 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "Iron Sword",
+      "type": "Weapon",
+      "damage": 10,
+      "price": 100
+    },
+    {
+      "id": 2,
+      "name": "Health Potion",
+      "type": "Consumable",
+      "heal": 50,
+      "price": 50
+    },
+    {
+      "id": 3,
+      "name": "Magic Scroll",
+      "type": "Magic",
+      "effect": "Fireball",
+      "price": 150
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "name": "Opening T7World",
+      "description": "Selamat datang di dunia T7!",
+      "reward": "100 Gold"
+    },
+    {
+      "id": 2,
+      "name": "Guardian Battle",
+      "description": "Kalahkan Guardian untuk membuka Avatar Rahasia!",
+      "reward": "Avatar Legendary"
+    }
+  ]
+}

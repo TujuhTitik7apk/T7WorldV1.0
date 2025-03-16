@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "827023971442",
+    "project_id": "t7world-179e8",
+    "storage_bucket": "t7world-179e8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:827023971442:android:625c4115d4a42359629eeb",
+        "android_client_info": {
+          "package_name": "Com.t7apklym8.t7world"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCt42r6EniUtsPvXBxT4IB6Ew3UMb3xNLw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

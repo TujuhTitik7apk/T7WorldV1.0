@@ -1,0 +1,56 @@
+{
+  "languages": [
+    {
+      "code": "id",
+      "name": "Bahasa Indonesia"
+    },
+    {
+      "code": "jv",
+      "name": "Basa Jawa"
+    },
+    {
+      "code": "ja",
+      "name": "日本語"
+    },
+    {
+      "code": "en",
+      "name": "English"
+    },
+    {
+      "code": "zh",
+      "name": "中文"
+    }
+  ],
+  "translations": {
+    "id": {
+      "welcome_message": "Selamat datang di T7World!",
+      "exit": "Keluar",
+      "choose_avatar": "Pilih Avatar",
+      "language_setting": "Pengaturan Bahasa"
+    },
+    "jv": {
+      "welcome_message": "Sugeng rawuh ing T7World!",
+      "exit": "Metu",
+      "choose_avatar": "Pilih Avatar",
+      "language_setting": "Setelan Basa"
+    },
+    "ja": {
+      "welcome_message": "T7ワールドへようこそ！",
+      "exit": "終了",
+      "choose_avatar": "アバターを選ぶ",
+      "language_setting": "言語設定"
+    },
+    "en": {
+      "welcome_message": "Welcome to T7World!",
+      "exit": "Exit",
+      "choose_avatar": "Choose Avatar",
+      "language_setting": "Language Settings"
+    },
+    "zh": {
+      "welcome_message": "欢迎来到T7World！",
+      "exit": "退出",
+      "choose_avatar": "选择头像",
+      "language_setting": "语言设置"
+    }
+  }
+}

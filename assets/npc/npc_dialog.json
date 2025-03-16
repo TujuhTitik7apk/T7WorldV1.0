@@ -1,0 +1,28 @@
+{
+  "npcs": [
+    {
+      "id": 1,
+      "name": "Eyang Kultivator",
+      "dialog": {
+        "id": "npc_1",
+        "text": {
+          "id": "Selamat datang di dunia kultivasi, nak!",
+          "en": "Welcome to the cultivation world, kid!",
+          "jv": "Sugeng rawuh ing donya kultivasi, cah!",
+          "jp": "ようこそ、修行の世界へ！",
+          "cn": "欢迎来到修行的世界，孩子！"
+        },
+        "options": [
+          {
+            "text": "Bagaimana cara kultivasi?",
+            "nextDialogId": "npc_1_1"
+          },
+          {
+            "text": "Aku ingin keluar.",
+            "nextDialogId": "npc_exit"
+          }
+        ]
+      }
+    }
+  ]
+}

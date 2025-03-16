@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="encryption_key">T7WORLD_2025_IMEI_CHECK</string>
+    <string name="sha1_key">FB:22:F8:D7:A3:7C:99:34:6B:D2:08:C8:28:95:D2:02:59:61:E2:FA</string>
+</resources>
